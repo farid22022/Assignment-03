@@ -55,11 +55,11 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                       </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
+                      <li class="text-2xl"><a>Home</a></li>
+                      <li class="text-2xl"><a>About</a></li>
+                      <li class="text-2xl"><a>Pages</a></li>
+                      <li class="text-2xl"><a>Blog</a></li>
+                      <li class="text-2xl"><a>Contact</a></li>
                       
                     </ul>
                   </div>
@@ -67,11 +67,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a><span class="text-primary-color">Home</span></a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
+                    <li><a><span class="text-primary-color text-2xl ">Home</span></a></li>
+                      <li class="text-2xl"><a>About</a></li>
+                      <li class="text-2xl"><a>Pages</a></li>
+                      <li class="text-2xl"><a>Blog</a></li>
+                      <li class="text-2xl"><a>Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end flex">
@@ -131,43 +131,49 @@
         </section>
 
         <!-- Radial Prograss  -->
-        <section class="mb-20">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-26">
-                <div class="">
-                    <div class="radial-progress text-primary" style="--value:87; color:brown" role="progressbar" >87%</div>
-                    <div class="">
-                        <h3 class="font-semibold text-xl text-center">Prayer Facility</h3>
-                    <p>Our prayer facility offers a serene space for spiritual reflection and connection</p>
-                    </div>
-
-                </div>
-                <div class="">
-                    <div class="radial-progress text-primary" style="--value:95; color:rgb(78, 210, 18)" role="progressbar">95%</div>
-                    <div class="">
-                        <h3 class="font-semibold text-xl text-center">Prayer Facility</h3>
+        
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-20">
+                <div class="justify items-center">
+                    <div class="card h-72 bg-base-100 shadow-xl">
+                        <div class="radial-progress text-primary" style="--value:87;color:brown" role="progressbar">87%</div>
+                        <div class="">
+                            <h3 class="font-semibold text-xl text-center">Prayer Facility</h3>
                         <p>Our prayer facility offers a serene space for spiritual reflection and connection</p>
+                        </div>
                     </div>
                 </div>
                 <div class="">
-                    <div class="radial-progress text-primary" style="--value:90; color:rgba(219, 186, 22, 0.97)" role="progressbar">90%</div>
-                    <div class="">
-                        <h3 class="font-semibold text-xl text-center">Senior Player</h3>
+                    <div class="card h-72 bg-base-100 shadow-xl">
+                        <div class="radial-progress text-primary" style="--value:95;color:rgb(78, 210, 18)" role="progressbar">95%</div>
+                        <div class="">
+                            <h3 class="font-semibold text-xl text-center">Experienced Coach</h3>
+                            <p>An experienced coach provides guidance, expertise, and support to help individuals or teams achieve their goals effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card h-72 bg-base-100 shadow-xl">
+                        <div class="radial-progress text-primary" style="--value:90;color:rgba(219, 186, 22, 0.97)" role="progressbar">90%</div>
+                        <div class="">
+                            <h3 class="font-semibold text-xl text-center">Senior Player</h3>
                         <p>Meet our seasoned senior player whose wealth of experience and leadership on the field brings invaluable insights</p>
+                        </div>
                     </div>
                 </div>
                 <div class="">
-                    <div class="radial-progress text-primary" style="--value:80; color:rgb(25, 25, 148)" role="progressbar">80%</div>
-                    <div class="">
-                        <h3 class="font-semibold text-xl text-center">Training Ground</h3>
-                        <p>Our training ground is more than just a field; it's where dedication meets determination,</p>
+                    <div class="card h-72 bg-base-100 shadow-xl">
+                        <div class="radial-progress text-primary" style="--value:87; color:rgb(25, 25, 148)" role="progressbar">87%</div>
+                        <div class="">
+                            <h3 class="font-semibold text-xl text-center">Training Ground</h3>
+                        <p>Our training ground is more than just a field; it's where dedication meets determination.</p>
+                        </div>
                     </div>
                 </div>
-                
             </div>
         </section>
-
         <!-- Program Sections title-->
-        <section class="mb-20">
+        <section class="mb-20 space-y-5">
             
                 <h3 class="text-4xl text-black text-center font-extrabold">Program Sections</h3>
                 <p class="text-center font-medium">Explore our diverse program section for curated content, workshops, and <br> activities tailored to your interests and aspirations</p>
@@ -229,12 +235,12 @@
     
                     
                     <!-- card -1 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/5.png" alt="">
                         </div>
                         <div class="space-y-4">
-                            <div class="flex gap-3">
+                            <div class="flex gap-5">
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" placeholder="."/>
                                     <h3>5.0</h3>
@@ -263,7 +269,7 @@
     
     
                     <!-- card -2 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/7.png" alt="">
                         </div>
@@ -297,7 +303,7 @@
     
     
                     <!-- card -3 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/9.png" alt="">
                         </div>
@@ -335,7 +341,7 @@
     
                     
                     <!-- card -4 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/5.png" alt="">
                         </div>
@@ -369,7 +375,7 @@
     
     
                     <!-- card -5 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/5.png" alt="">
                         </div>
@@ -403,7 +409,7 @@
     
     
                     <!-- card -6 -->
-                    <div class="flex-cols-reverse  md:flex gap-5">
+                    <div class="card bg-base-100 shadow-xl flex-cols-reverse  md:flex gap-5 p-5 w-[576px]">
                         <div class="">
                             <img width="180px" height="170px" src="Images/5.png" alt="">
                         </div>
@@ -446,9 +452,9 @@
         <section class="md:mt-50 mt-20 mb-40">
             <div class="md:flex grid-cols-1 justify-between gap-5">
                 <div class="">
-                    <img src="Images/11.png" alt="">
+                    <img class="card bg-base-100 shadow-xl" src="Images/11.png" alt="">
                 </div>
-                <div class="">
+                <div class="space-y-1">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked"placeholder="." /> 
                         <div class="collapse-title text-xl font-medium">
@@ -508,16 +514,16 @@
         </section>
 
 
-        <section class="text-center mt-40 space-y-5">
+        <section class="text-center mt-40 space-y-5 mb-20">
             <h3 class="text-4xl text-black font-extrabold">Get In Touch</h3>
-            <p >Don't hesitate to reach out! Contact us today to learn more, ask questions, or discuss how we can assist you further</p>
+            <p class="mb-20" >Don't hesitate to reach out! Contact us today to learn more, ask questions, or discuss how we can assist you further</p>
         </section>
 
 
         <!-- get in touch -->
         <section>
             <div class="flex gap-5">
-                <div class="space-y-5 flex-1">
+                <div class="space-y-5 flex-1 card bg-base-100 shadow-xl">
                     <div class="pl-6 pt-6 pr-12 pb-5 space-y-5 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% drop-shadow-lg rounded-lg">
                         <img src="Images/Group 1171275317.png" alt="">
                         <h3>Email :</h3>
