@@ -34,6 +34,17 @@
       </script>
 </head>
 <body class="font-manrope m-10 ml-5 mr-5">
+    <div class="dropdown">
+        <div tabindex="0" role="button" class="btn m-1">Theme</div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a><input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Default" value="default"/></a></li>
+          <li><a><input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Retro" value="retro"/></a></li>
+          <li><a><input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Cyberpunk" value="cyberpunk"/></a></li>
+          <li><a><input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Valentine" value="valentine"/></a></li>
+          <li><a><input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Aqua" value="aqua"/></a></li>
+        </ul>
+      </div>
+    <div class="join join-vertical">
     <main class="container mx-auto ">
         <!-- nav ber  section -->
         <section>
@@ -398,7 +409,7 @@
             <h3 class="font-extrabold text-black text-3xl text-center">Clients Question</h3>
             <p class="text-center">Could you please provide more context or clarify what you mean by "Client Question"?<br> This will help me tailor a response more accurately to your query.</p>
         </section>
-        <section class="md:mt-50 mt-20">
+        <section class="md:mt-50 mt-20 mb-40">
             <div class="md:flex grid-cols-1 justify-between gap-5">
                 <div class="">
                     <img src="Images/11.png" alt="">
@@ -458,6 +469,67 @@
                           <p>hello</p>
                         </div>
                       </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="text-center mt-40 space-y-5">
+            <h3 class="text-4xl text-black font-extrabold">Get In Touch</h3>
+            <p >Don't hesitate to reach out! Contact us today to learn more, ask questions, or discuss how we can assist you further</p>
+        </section>
+
+
+        <!-- get in touch -->
+        <section>
+            <div class="flex gap-5">
+                <div class="space-y-5 flex-1">
+                    <div class="pl-6 pt-6 pr-12 pb-5 space-y-5 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% drop-shadow-lg rounded-lg">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <h3>Email :</h3>
+                        <h3 class="text-black font-medium">hockeys@support.com</h3>
+                    </div>
+                    <div class="pl-6 pt-6 pr-12 pb-5 space-y-5 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% drop-shadow-lg rounded-lg">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <h3>Location : </h3>
+                        <h3 class="text-black font-medium">152/1 Mohakhali Wireless Gate</h3>
+                    </div>
+                    <div class="pl-6 pt-6 pr-12 pb-5 space-y-5 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% drop-shadow-lg rounded-lg">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <h3>Location : </h3>
+                        <h3 class="text-black font-medium">152/1 Mohakhali Wireless Gate</h3>
+                    </div>
+                </div>
+                <div class="space-y-5 flex-1">
+                    <div class="flex">
+                        <div class="space-y-20 gap-10">
+                            <div class="space-y-13">
+                                <h3 class="font-bold">Your Name</h3>
+                                <input class="p-6" width="324px" type="text" pattern="" placeholder="Enter your full name">
+                            </div>
+                            <div class="space-y-13">
+                                <h3 class="font-bold">Subject</h3>
+                                <input class="p-6" width="324px" type="text" placeholder="Enter your subject">
+                            </div>
+                        </div>
+                        <div class="space-y-20">
+                            <div class="space-y-13">
+                                <h3 class="font-bold">Your Email</h3>
+                                <input class="p-6" width="324px" type="email" placeholder="Enter your email">
+                            </div>
+                            <div class="space-y-13">
+                                <h3 class="font-bold">Phone Number</h3>
+                                <input class="p-6" width="324px" type="number" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="text-semibold ">Message</h3>
+                        <textarea width="700px" class="textarea textarea-accent pr-40" placeholder="Your Massage"></textarea>
+                    </div>
+                    <div class="">
+                        <button class="bg-red">send Massage</button>
+                    </div>
                 </div>
             </div>
         </section>
